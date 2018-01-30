@@ -1386,28 +1386,6 @@ table td.bck-td {
 /**/
 /****/
 
-@media screen and (min-width: 319px) and (max-width: 520px){
-	
-	.body_clase:not(.edit) .logo-publisher {
-    	background-image: none;
-	}
-
-.content_type_clase_mackay_demo .mackay_demo-navbar .dropdownTemas {
-    	background-image: none;
-	}
-
-
-}
-
-@media screen and (min-width: 768px){
-
-	.content_type_clase_mackay_demo .mackay_demo-navbar .dropdownTemas {
-    	margin-right: 0px;
-	}
-
-}
-
-
 
 @media screen and (max-width: 768px) {
 	
