@@ -599,11 +599,20 @@ body.is_app .mackay_demo-navbar.ocultar {
 	background-color: transparent;
 }
 
+.bck-title1, .bck-title2, .bck-title3, .bck-title-activity {
+    font-family: inherit;
+}
+
+
 .bck-title1 {
-    color: #9665AB;
+    color: #fff;
     font-size: 2.4rem;
     font-weight: bold;
-	position: relative;
+    position: relative;
+    background-color: #162341;
+    border-radius: 7px;
+    width: max-content;
+    padding: 10px 20px 4px 19px;
 }
 
 .bck-title2 {
@@ -896,9 +905,9 @@ body.is_app .mackay_demo-navbar.ocultar {
 	border-bottom-style: solid;
 	border-width: 1px;
 	font-weight: bold;
-	color: black;
+	color: #142342;
 	line-height: 4.0rem;
-	padding-left: 40px;
+	padding-left: 2px;
 }
 
 .titulo-2:before {
@@ -930,12 +939,13 @@ body.is_app .mackay_demo-navbar.ocultar {
 }
 
 .titulo-2.leer {
-	border-color: #162241;
+	border-color: #142342;
 }
 
 .titulo-2.leer:before {
-	background-image: url(titulo2_leer_icon.png);
-}
+    background: none;
+    content: "\f02d";
+    font-family: "Fontawesome";
 
 .titulo-2.escribir {
 	border-color: #991986;
@@ -1377,4 +1387,3 @@ table td.bck-td {
 		bottom:0 ;
 	}
 }
-
