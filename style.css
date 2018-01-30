@@ -634,8 +634,8 @@ body.is_app .mackay_demo-navbar.ocultar {
 	position: relative;
 }
 
-.bck-enfasis {
-    color: #9363A8;
+.bck-enfasis, strong {
+    color: #e74c21;
     font-weight: bold;
 }
 
