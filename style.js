@@ -1,15 +1,15 @@
 (function (blink) {
 	'use strict';
 
-	var LnplatStyle = function () {
+	var mackay_demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	LnplatStyle.prototype = {
-		bodyClassName: 'content_type_clase_lnplat',
+	mackay_demoStyle.prototype = {
+		bodyClassName: 'content_type_clase_mackay_demo',
 		ckEditorStyles: {
-			name: 'lnplat',
+			name: 'mackay_demo',
 			styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
@@ -56,8 +56,8 @@
 				{ name: 'Escuchar', type: 'widget', widget: 'blink_box', attributes: { 'class': 'escuchar-box' } },
 				{ name: 'Actividad Scorm ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'actividad-scorm-box' } },
 
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'lnplat-dropdown' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'lnplat-dropdown-2' } },
+				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'mackay_demo-dropdown' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'mackay_demo-dropdown-2' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
@@ -163,7 +163,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'lnplat-navbar')
+				.attr('class', 'mackay_demo-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -325,7 +325,7 @@
 
 		animateNavbarOnScroll: function () {
 			if (!blink.isApp) return;
-			var $navbar = $('.lnplat-navbar');
+			var $navbar = $('.mackay_demo-navbar');
 			var lastScrollTop = 0;
 			$('.js-slider-item').scroll(function () {
 				var scrollTop = $(this).scrollTop();
@@ -335,14 +335,14 @@
 		},
                 
                 changeHighBar: function () {
-                    if($('.lnplat-navbar').length>0 && $('.navbar').length>0){
-                        blink.theme.setTopByHeight('.navbar', '.lnplat-navbar');
+                    if($('.mackay_demo-navbar').length>0 && $('.navbar').length>0){
+                        blink.theme.setTopByHeight('.navbar', '.mackay_demo-navbar');
                     }
                 }
 	};
 
-	LnplatStyle.prototype = _.extend({}, new blink.theme.styles.basic(), LnplatStyle.prototype);
+	mackay_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), mackay_demoStyle.prototype);
 
-	blink.theme.styles['lnplat'] = LnplatStyle;
+	blink.theme.styles['mackay_demo'] = mackay_demoStyle;
 
 })( blink );
