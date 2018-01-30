@@ -1386,10 +1386,10 @@ table td.bck-td {
 /**/
 /****/
 
-@media screen and (min-width: 319px) and (max-width: 768px){
+@media screen and (min-width: 319px) and (max-width: 767px){
 	
 	.body_clase:not(.edit) .logo-publisher {
-    	display: none;
+    	background-image: none;
 	}
 
 .content_type_clase_mackay_demo .mackay_demo-navbar .dropdownTemas {
