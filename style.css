@@ -203,7 +203,7 @@ fieldset[disabled] .content_type_clase_mackay_demo .slide_main input {
 }
 
 #indice .unit-content .header {
-	border: 2px solid #9665AB;
+	border: 2px solid #172340;;
     border-radius: 20px;
     border-bottom-right-radius: 0px;
 }
@@ -226,7 +226,7 @@ fieldset[disabled] .content_type_clase_mackay_demo .slide_main input {
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-	background: #9665AB;
+	background: #172240;
 }
 
 #indice .units ul li:not(.add) a .title {
@@ -1206,7 +1206,7 @@ table td.bck-td {
 }
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-    background-color: #9665AB;
+    background-color: #172340;
 }
 
 /**/
