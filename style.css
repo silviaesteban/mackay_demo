@@ -534,6 +534,21 @@ body.is_app .mackay_demo-navbar.ocultar {
 	font-size: 2.3rem;
 }
 
+.navigator .slider-control.left:before, .navigator .slider-control.right:after {
+    font-family: 'FontAwesome';
+    position: absolute;
+    margin-top: -3px;
+    background: #e54920;
+    color: #ffffff;
+    border-radius: 120px;
+    width: 48px;
+    height: 48px;
+    line-height: 4.8rem;
+    text-align: center;
+    font-size: 4.0rem;
+}
+
+
 .navigator .slider-control.left:before,
 .navigator .slider-control.right:after {
 	font-family: 'FontAwesome';
@@ -617,21 +632,23 @@ body.is_app .mackay_demo-navbar.ocultar {
     margin-left: 0px;
 }
 
-
 .bck-title2 {
-    color: #9665AB;
+    color: #0c77b6;
     font-size: 2.1rem;
     font-weight: bold;
-    border-bottom: 1px solid #9665AB;
-	position: relative;
+    border-bottom: 0px;
+    position: relative;
+    border: 0px;
 }
 
 .bck-title3 {
-    color: #FF8400;
-    font-size: 2.4rem;
-    font-weight: 600;
+    border-bottom: 4px dotted #e74b21;
+    color: #e74b21;
+    padding: 0 13px;
+    font-size: 1.4em;
+    font-weight: 500;
     display: inline-block;
-	position: relative;
+    position: relative;
 }
 
 .bck-enfasis, strong {
@@ -655,14 +672,15 @@ body.is_app .mackay_demo-navbar.ocultar {
 #actividad .content .workspace ul li .bck-ul li:before {
 	content: "";
     position: absolute;
-	height: 6px;
+    height: 6px;
     width: 6px;
-    background-color: #9665AB;
+    background-color: #e54920;
     margin-top: 12px;
     margin-left: -15px;
-	margin-right: 7px;
-	margin-bottom: 2px;
-	border-radius: 50%;
+    margin-right: 7px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+    border: 0px;
 }
 
 #actividad .content .texto_curso  ul.bck-ul-2 li,
@@ -705,11 +723,11 @@ body.is_app .mackay_demo-navbar.ocultar {
 #actividad .content .texto_curso .bck-ol li:before,
 #actividad .content .workspace ul li .bck-ol li:before {
 	content: counter(bck-li-counter)'.-';
-	position: absolute;
-	left: -47px;
-	width: 38px;
-	text-align: right;
-	color: #9665AB;
+    position: absolute;
+    left: 15px;
+    width: 38px;
+    text-align: right;
+    color: #162341;
 }
 
 #actividad .content .texto_curso .bck-ol-2,
@@ -1311,6 +1329,15 @@ table td.bck-td {
 
 .bck-dropdown {
 	border-top-right-radius: 20px;
+}
+
+.bck-dropdown-content {
+    overflow-y: auto;
+    display: none;
+    max-height: 300px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
 }
 
 .mackay_demo-dropdown .bck-dropdown-icon, .mackay_demo-dropdown-2 .bck-dropdown-icon {
