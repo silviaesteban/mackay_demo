@@ -1386,7 +1386,14 @@ table td.bck-td {
 /**/
 /****/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+	.body_clase:not(.edit) .logo-publisher {
+    display: none;
+	}
+
+	.content_type_clase_mackay_demo .mackay_demo-navbar .dropdownTemas {
+    margin-right: 0px;
+	}
 
 	#actividad .carousel-inner .class_slide {
         padding: 40px 20px 0px;
