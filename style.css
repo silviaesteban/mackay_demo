@@ -613,6 +613,8 @@ body.is_app .mackay_demo-navbar.ocultar {
     border-radius: 7px;
     width: max-content;
     padding: 10px 20px 4px 19px;
+    border-left: 0px;
+    margin-left: 0px;
 }
 
 .bck-title2 {
@@ -907,7 +909,7 @@ body.is_app .mackay_demo-navbar.ocultar {
 	font-weight: bold;
 	color: #142342;
 	line-height: 4.0rem;
-	padding-left: 2px;
+	padding-left: 29px;
 }
 
 .titulo-2:before {
