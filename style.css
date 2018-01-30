@@ -1,7 +1,7 @@
 /*General */
 
 
-.logo-publisher {
+.body_clase:not(.edit) .logo-publisher {
     display: inline-block;
     width: 144px;
     height: 100px;
