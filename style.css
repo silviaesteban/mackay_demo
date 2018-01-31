@@ -74,6 +74,33 @@ a:hover, a:active, a:focus {
 }
 /*HEADER*/
 
+#indice .unit-content .header .title {
+    background-color: #172340ba;
+    border-radius: 8px;
+    padding: 7px;
+    color: #fff;
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    height: auto;
+    line-height: 34px;
+    margin: 20px 140px 20px 30px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
 .content_type_clase_mackay_demo #actividad .content .header .title img,
 .content_type_clase_mackay_demo #actividad .content .header .chapter {
 	display: none;
