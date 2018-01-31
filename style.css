@@ -484,7 +484,7 @@ body.is_app .mackay_demo-navbar.ocultar {
 	left: 0;
 	position: absolute;
 	width: 100%;
-	padding: 0px 97px;
+	padding: 0px;
 }
 
 .navigator .title {
@@ -567,8 +567,9 @@ body.is_app .mackay_demo-navbar.ocultar {
 
 .navigator .slider-control span {
 	position: static;
-	margin: 0px;
+	margin: 0px -30px;
     cursor: pointer;
+    padding-top: 11px;
 }
 /**/
 
