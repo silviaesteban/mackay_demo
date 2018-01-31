@@ -662,9 +662,22 @@ body.is_app .mackay_demo-navbar.ocultar {
 
 /*listas*/
 
+.content ol, .cke_contents ol {
+    list-style: none;
+    padding: 0;
+    margin: 0px 0px 20px 30px;
+}
+
+
 #actividad .content ul.bck-ul li {
 	list-style: none;
 }
+
+.texto_curso ul li, .workspace ul li ul li, .cke_contents ul li {
+    position: relative;
+    padding-left: 35px;
+}
+
 
 #actividad .content .texto_curso ul li:before,
 #actividad .content .workspace ul li ul li:before,
@@ -1385,6 +1398,16 @@ table td.bck-td {
 }
 /**/
 /****/
+
+
+@media screen and (min-width: 768px){
+
+	.content_type_clase_mackay_demo .mackay_demo-navbar .dropdownTemas {
+    	margin-right: 0px;
+	}
+
+}
+
 
 
 @media screen and (max-width: 768px) {
