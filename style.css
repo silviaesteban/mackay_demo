@@ -1,6 +1,5 @@
 /*General */
 
-
 .body_clase:not(.edit) .logo-publisher {
     display: inline-block;
     width: 144px;
@@ -639,6 +638,8 @@ body.is_app .mackay_demo-navbar.ocultar {
     border-bottom: 0px;
     position: relative;
     border: 0px;
+    margin-left: 0px;
+    padding: 10px 20px 0px 0px;
 }
 
 .bck-title3 {
